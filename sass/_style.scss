@@ -108,3 +108,36 @@
 		}
 	}
 }
+.proyect{
+	margin: 0 auto;
+	padding: 60px;
+	background-color: $body_color; 
+	height: 350px;
+	.caja{
+		width: 66.6666666667%;
+		margin-left: 16.6666666667%;
+  		margin-right: auto;
+  		position: relative;
+  		&__circulo{
+  			width: 41.6666666667%;
+  			float: left;
+		    margin-left: auto;
+		    left: auto;
+		    right: auto;
+		    &--proyectos{
+				font-size: 20px;
+				color: #203748;
+				text-align: center;
+				margin-top: 100px;	
+				top:10px;
+			}
+		    &--blanco{
+	  			background-color: $white_color;
+	  			border-radius: 50%;
+	  			width: 290px;
+	  			height: 290px;
+  			}
+  		}
+}
+
+
