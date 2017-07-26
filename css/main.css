@@ -116,4 +116,34 @@ body {
   background-color: #D1232E;
   height: 350px; 
 }
+.proyect .caja {
+  width: 66.6666666667%;
+  margin-left: 16.6666666667%;
+  margin-right: auto;
+  position: relative; 
+}
+.proyect .caja__circle {
+  width: 41.6666666667%;
+  float: left;
+  margin-left: auto;
+  left: auto;
+  right: auto; 
+}
+.proyect .caja__circulo--blanco {
+  font-size: 20px;
+  color: #2A4359;
+  text-align: center;
+  margin-top: 100px; 
+}
+.proyect .caja__circulo--proyectos {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 290px;
+  height: 290px; 
+  top: 10px;
+}
+.proyect .caja__circulo--proyectos:hover {
+  background-color: #24BE8B;
+}
+
 
