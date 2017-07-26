@@ -40,3 +40,80 @@ body {
   text-decoration: none;
   padding: 16px; 
 }
+.profile {
+  margin: 0 auto;
+  padding: 60px;
+  background-color: #2A4359;
+  height: 450px; 
+}
+.profile .box {
+  width: 66.6666666667%;
+  margin-left: 16.6666666667%;
+  margin-right: auto;
+  position: relative; 
+}
+.profile .box__circle {
+  width: 41.6666666667%;
+  float: left;
+  margin-left: auto;
+  left: auto;
+  right: auto; 
+}
+.profile .box__circle--mini {
+  font-size: 40px;
+  color: #2A4359;
+  text-align: center;
+  margin-top: 115px; 
+}
+.profile .box__circle--exterior {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 290px;
+  height: 290px; 
+}
+.profile .box__text {
+  width: 58.3333333333%;
+  margin-left: auto;
+  left: auto;
+  right: auto; 
+}
+.profile .box__text--title {
+  color: #24BE8B;
+  font-size: 40px; 
+}
+.profile .box__text--parrafo {
+  color: #fff; 
+}
+.profile .box__text--desc {
+  line-height: 30px;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 40px; 
+}
+.profile .box__text--btn {
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  background-color: #24BE8B;
+  padding: 17px 50px;
+  border-radius: 50px; 
+}
+.profile .box__text--btn i {
+  padding-right: 10px; 
+}
+.profile .box__redes {
+  margin-top: 60px;
+  display: inline-block;
+  text-align: center; 
+}
+.profile .box__redes--lista {
+  margin-right: 20px;
+  cursor: pointer; 
+}
+.proyect {
+  margin: 0 auto;
+  padding: 60px;
+  background-color: #D1232E;
+  height: 350px; 
+}
+
